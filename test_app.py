@@ -21,7 +21,7 @@ def test_answer_div2():
 def test_answer_div3():
      assert div(2,2) == 1 
 def test_answer_div3():
-     assert div(2,2) == 1
+     assert div(2,0) == 1
 
 def test_answer_mult1():
      assert mult(2,2) == 4
